@@ -12,6 +12,11 @@ body {
     background-color: #151515;
 }
 
+.container {
+    width: 1135px;
+    margin: auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -25,12 +30,12 @@ button {
     border: none;
 }
 
-h3,
+h2,
 p {
     color: #fff;
 }
 
-/* header css start */
+/* header start */
 .header-section {
     display: flex;
     align-items: center;
@@ -45,4 +50,43 @@ p {
     font-size: 60px;
 }
 
-/* header css end */
+/* header end */
+
+/* main start */
+.main-div {
+    display: flex;
+    gap: 20px;
+}
+
+
+.card-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.main-card {
+    border: 1px solid #969292a9;
+    background-color: #000;
+}
+
+.card-title,
+.card-button {
+    margin: 15px;
+    text-align: center;
+}
+
+.card-button {
+    padding: 10px 88px;
+}
+
+.selected-player {
+    width: 260px;
+    height: 300px;
+    padding: 20px;
+    background-color: #000000;
+}
+
+
+
+/* main end */
