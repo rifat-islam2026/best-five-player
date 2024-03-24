@@ -31,7 +31,8 @@ button {
 }
 
 h2,
-p {
+p,
+span {
     color: #fff;
 }
 
@@ -56,6 +57,7 @@ p {
 .main-div {
     display: flex;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -81,12 +83,61 @@ p {
 }
 
 .selected-player {
-    width: 260px;
+    text-align: center;
+    width: 270px;
     height: 300px;
     padding: 20px;
-    background-color: #000000;
+    margin-bottom: 24px;
+    background-color: #0D0D0D;
+}
+
+.aside-bar h2 {
+    margin-bottom: 10px;
+}
+
+.calculate-budget {
+    text-align: center;
+    width: 270px;
+    height: 470px;
+    padding: 15px;
+    background-color: #0D0D0D;
+}
+
+.calculate-budget span {
+    color: #AFAFAF;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.flex-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.total span {
+    color: #FF5E19;
+}
+
+.btn-budget {
+    padding: 8px 55px;
+    margin: 10px 0;
 }
 
 
+input {
+    outline: none;
+    width: 120px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #000;
+    border: 1px solid #ffffff5d;
+    color: #fff;
+}
 
 /* main end */
