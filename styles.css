@@ -32,9 +32,21 @@ button {
 
 h2,
 p,
-span {
+span,
+ol,
+li {
     color: #fff;
 }
+
+ol {
+    padding: 30px;
+}
+
+ol,
+li {
+    margin-bottom: 10px;
+}
+
 
 /* header start */
 .header-section {
